@@ -6,7 +6,7 @@ import javax.validation.constraints.NotBlank;
 
 public class dtoExperiencialab {
     
-     @NotBlank
+    @NotBlank
     private String puesto;
     @NotBlank
     private String empresa;

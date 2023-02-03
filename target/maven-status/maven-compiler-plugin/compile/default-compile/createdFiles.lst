@@ -1,3 +1,6 @@
+com\portfolio\yoProgramo\controller\CProyectos.class
+com\portfolio\yoProgramo\Dto\dtoProyectos.class
+com\portfolio\yoProgramo\repository\RHabilidades.class
 com\portfolio\yoProgramo\security\jwt\JwtTokenFilter.class
 com\portfolio\yoProgramo\entity\Educacion.class
 com\portfolio\yoProgramo\security\dto\LoginUsuario.class
@@ -11,8 +14,10 @@ com\portfolio\yoProgramo\controller\CEducacion.class
 com\portfolio\yoProgramo\security\enums\RolNombre.class
 com\portfolio\yoProgramo\security\service\UserDetailsImpl.class
 com\portfolio\yoProgramo\security\dto\NuevoUsuario.class
+com\portfolio\yoProgramo\entity\Proyectos.class
 com\portfolio\yoProgramo\security\jwt\JwtProvider.class
 com\portfolio\yoProgramo\service\IPersonaService.class
+com\portfolio\yoProgramo\controller\CHabilidades.class
 com\portfolio\yoProgramo\controller\PersonaControlador.class
 com\portfolio\yoProgramo\entity\Experiencialab.class
 com\portfolio\yoProgramo\Dto\dtoPersona.class
@@ -23,13 +28,18 @@ com\portfolio\yoProgramo\repository\RExperiencialab.class
 com\portfolio\yoProgramo\security\repository\iUsuarioRepository.class
 com\portfolio\yoProgramo\security\service\RolService.class
 com\portfolio\yoProgramo\YoProgramoApplication.class
+com\portfolio\yoProgramo\service\SProyectos.class
 com\portfolio\yoProgramo\security\entity\Rol.class
+com\portfolio\yoProgramo\entity\Habilidades.class
 com\portfolio\yoProgramo\security\MainSecurity.class
 com\portfolio\yoProgramo\Dto\dtoExperiencialab.class
+com\portfolio\yoProgramo\service\SHabilidades.class
 com\portfolio\yoProgramo\security\dto\JwtDto.class
 com\portfolio\yoProgramo\Dto\dtoEducacion.class
 com\portfolio\yoProgramo\service\ImpPersonaService.class
 com\portfolio\yoProgramo\repository\PersonaRepository.class
 com\portfolio\yoProgramo\repository\REducacion.class
+com\portfolio\yoProgramo\Dto\dtoHabilidades.class
 com\portfolio\yoProgramo\security\entity\UsuarioPrincipal.class
+com\portfolio\yoProgramo\repository\RProyectos.class
 com\portfolio\yoProgramo\security\controller\Mensaje.class
