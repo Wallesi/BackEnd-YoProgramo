@@ -21,7 +21,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("persona")//localhost:8080/experiencia
-@CrossOrigin(origins ="https://frontwaldemar.web.app")
+@CrossOrigin(origins={"https://frontwaldemar.web.app","http://localhost:4200"})
 public class PersonaControlador {
     @Autowired
     ImpPersonaService personaService;
