@@ -5,7 +5,7 @@ import javax.validation.constraints.NotBlank;
 
 public class dtoProyectos {
     @NotBlank
-    private String img;
+    private String fechas;
     @NotBlank
     private String titulo;
     @NotBlank
@@ -18,20 +18,20 @@ public class dtoProyectos {
     public dtoProyectos() {
     }
 
-    public dtoProyectos(String img, String titulo, String descripcion, String web, String git) {
-        this.img = img;
+    public dtoProyectos(String fechas, String titulo, String descripcion, String web, String git) {
+        this.fechas = fechas;
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.web = web;
         this.git = git;
     }
 
-    public String getImg() {
-        return img;
+    public String getFechas() {
+        return fechas;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setFechas(String fechas) {
+        this.fechas = fechas;
     }
 
     public String getTitulo() {
@@ -65,6 +65,7 @@ public class dtoProyectos {
     public void setGit(String git) {
         this.git = git;
     }
+
     
     
 }

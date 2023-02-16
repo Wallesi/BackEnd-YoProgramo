@@ -14,7 +14,7 @@ public class Proyectos {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     @NotNull
-    private String img;
+    private String fechas;
     @NotNull
     private String titulo;
     @NotNull
@@ -27,8 +27,8 @@ public class Proyectos {
     public Proyectos() {
     }
 
-    public Proyectos(String img, String titulo, String descripcion, String web, String git) {
-        this.img = img;
+    public Proyectos(String fechas, String titulo, String descripcion, String web, String git) {
+        this.fechas = fechas;
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.web = web;
@@ -43,12 +43,12 @@ public class Proyectos {
         this.id = id;
     }
 
-    public String getImg() {
-        return img;
+    public String getFechas() {
+        return fechas;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setFechas(String fechas) {
+        this.fechas = fechas;
     }
 
     public String getTitulo() {
@@ -81,10 +81,6 @@ public class Proyectos {
 
     public void setGit(String git) {
         this.git = git;
-    }
-
-   
-    
-    
+    } 
     
 }

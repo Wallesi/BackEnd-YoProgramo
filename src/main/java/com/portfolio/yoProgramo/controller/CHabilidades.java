@@ -57,7 +57,6 @@ public class CHabilidades {
             return new ResponseEntity(new Mensaje("Esa experiencia existe"), HttpStatus.BAD_REQUEST);
         
                 Habilidades habilidades = new Habilidades(
-                dtohab.getImg(),
                 dtohab.getName(),
                 dtohab.getProgreso());
                 
@@ -80,7 +79,7 @@ public class CHabilidades {
         
         Habilidades habilidades = sHabilidades.getOne(id).get();
         
-        habilidades.setImg(dtohab.getImg());
+       
         habilidades.setName(dtohab.getName());
         habilidades.setProgreso(dtohab.getProgreso());
         

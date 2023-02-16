@@ -14,8 +14,6 @@ public class Habilidades {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     @NotNull
-    private String img;
-    @NotNull
     private String name;
     @NotNull
     private String progreso;
@@ -24,8 +22,7 @@ public class Habilidades {
     public Habilidades() {
     }
 
-    public Habilidades(String img, String name, String progreso) {
-        this.img = img;
+    public Habilidades(String name, String progreso) {
         this.name = name;
         this.progreso = progreso;
     }
@@ -36,14 +33,6 @@ public class Habilidades {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
     }
 
     public String getName() {

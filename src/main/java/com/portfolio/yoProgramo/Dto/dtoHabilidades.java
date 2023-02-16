@@ -4,8 +4,7 @@ import javax.validation.constraints.NotBlank;
 
 public class dtoHabilidades {
     
-    @NotBlank
-    private String img;
+    
     @NotBlank
     private String name;
     @NotBlank
@@ -14,19 +13,12 @@ public class dtoHabilidades {
     public dtoHabilidades() {
     }
 
-    public dtoHabilidades(String img, String name, String progreso) {
-        this.img = img;
+    public dtoHabilidades(String name, String progreso) {
         this.name = name;
         this.progreso = progreso;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
+   
 
     public String getName() {
         return name;

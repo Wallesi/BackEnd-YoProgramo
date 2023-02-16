@@ -57,7 +57,7 @@ public class CProyectos {
             return new ResponseEntity(new Mensaje("Ese proyecto existe"), HttpStatus.BAD_REQUEST);
         
                 Proyectos proyectos = new Proyectos(
-                dtopro.getImg(),
+                dtopro.getFechas(),
                 dtopro.getTitulo(),
                 dtopro.getDescripcion(),
                 dtopro.getWeb(),
@@ -82,7 +82,7 @@ public class CProyectos {
         
         Proyectos proyectos = sProyectos.getOne(id).get();
         
-        proyectos.setImg(dtopro.getImg());
+        proyectos.setFechas(dtopro.getFechas());
         proyectos.setTitulo(dtopro.getTitulo());
         proyectos.setDescripcion(dtopro.getDescripcion());
         proyectos.setWeb(dtopro.getWeb());
